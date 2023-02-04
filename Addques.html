@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    h1 {
+        text-align: center;
+        font-weight: bold;
+        font-size: 4rem;
+    }
+
+    h2 {
+        background-color: grey;
+        color: black;
+        font-size: 2rem;
+
+    }
+
+    .container {
+        margin: auto;
+        padding: 3.3rem;
+        overflow-y: auto;
+    }
+
+    .submitbutton {
+        display: block;
+        margin: auto;
+        background-color: grey;
+        color: black;
+        text-align: center;
+        font-weight: bold;
+        font-size: 2rem;
+    }
+
+    .quesbox {
+        display: block;
+        margin: auto;
+    }
+
+    .ansbox {
+        display: block;
+        margin: auto;
+    }
+
+    .submitbtn {
+        display: block;
+        margin: auto;
+        color: black;
+        background-color: green;
+    }
+
+    p {
+        display: block;
+        margin: auto;
+    }
+</style>
+
+<body>
+    <h1>Add questions</h1>
+    <h2>Section</h2>
+    <div class="container">
+        <p>Q:</p><textarea name="ques" id="ques" class="quesbox" cols="30" rows="2.5"></textarea><br>
+        <p>A:</p><textarea name="ans" id="ans" class="ansbox" cols="30" rows="2.5"></textarea>
+    </div>
+    <button class="submitbutton" onclick="func">Add Another Question</button>
+    <button class="submitbtn" onclick="submitform">Submit</button>
+</body>
+
+</html>
